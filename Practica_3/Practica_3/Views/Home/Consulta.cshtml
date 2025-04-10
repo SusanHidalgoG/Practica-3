@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-5 mb-5">
+    <header class="py-5 bg-light border-bottom mb-4">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="fw-bolder">Consulta de Productos </h1>
+                <p class="lead mb-0"> Aquí puedes consultar los productos, los primeros en la lista son los pendientes.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Código Compra</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Saldo</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ejemplo de filas estáticas para la tabla -->
+                <tr>
+                    <td>Producto A</td>
+                    <td>Nombre del Producto A</td>
+                    <td>Descripción del Producto A</td>
+                    <td>Pendiente</td>
+                    <td>01/01/2023</td>
+                </tr>
+                <tr>
+                    <td>Producto B</td>
+                    <td>Nombre del Producto B</td>
+                    <td>Descripción del Producto B</td>
+                    <td>Completado</td>
+                    <td>15/02/2023</td>
+                </tr>
+                <tr>
+                    <td>Producto C</td>
+                    <td>Nombre del Producto C</td>
+                    <td>Descripción del Producto C</td>
+                    <td>Pendiente</td>
+                    <td>10/03/2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
