@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\practica_3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|solutionrelative:practica_3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|c:\\users\\estep\\source\\repos\\practica-3\\practica_3\\practica_3\\views\\abonos\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|solutionrelative:practica_3\\views\\abonos\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\practica_3\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|solutionrelative:practica_3\\controllers\\comprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|c:\\users\\estep\\source\\repos\\practica-3\\practica_3\\practica_3\\controllers\\abonoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|solutionrelative:practica_3\\controllers\\abonoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\practica_3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|solutionrelative:practica_3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|c:\\users\\estep\\source\\repos\\practica-3\\practica_3\\practica_3\\models\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82F904BF-448D-4DC1-8180-83949DEF4E1E}|Practica_3\\Practica_3.csproj|solutionrelative:practica_3\\models\\compras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AbonosController.cs",
+              "DocumentMoniker": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Controllers\\AbonosController.cs",
+              "RelativeDocumentMoniker": "Practica_3\\Controllers\\AbonosController.cs",
+              "ToolTip": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Controllers\\AbonosController.cs",
+              "RelativeToolTip": "Practica_3\\Controllers\\AbonosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T04:58:49.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Compras.cs",
+              "DocumentMoniker": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Models\\Compras.cs",
+              "RelativeDocumentMoniker": "Practica_3\\Models\\Compras.cs",
+              "ToolTip": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Models\\Compras.cs",
+              "RelativeToolTip": "Practica_3\\Models\\Compras.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T04:57:17.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComprasController.cs",
+              "DocumentMoniker": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Controllers\\ComprasController.cs",
+              "RelativeDocumentMoniker": "Practica_3\\Controllers\\ComprasController.cs",
+              "ToolTip": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Controllers\\ComprasController.cs",
+              "RelativeToolTip": "Practica_3\\Controllers\\ComprasController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T04:04:36.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Practica_3\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Practica_3\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T03:58:53.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Views\\Abonos\\Registro.cshtml",
+              "RelativeDocumentMoniker": "Practica_3\\Views\\Abonos\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Views\\Abonos\\Registro.cshtml",
+              "RelativeToolTip": "Practica_3\\Views\\Abonos\\Registro.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T03:58:41.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Practica_3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\EsteP\\source\\repos\\Practica-3\\Practica_3\\Practica_3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Practica_3\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T03:58:30.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,72 +3,46 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-
-<!-- ACLARACION-->
-<!-- Deje los comentarios porque si no me pierdo al modificar la plantilla-->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Sistema de Registro</title>
-
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="~/Templates/CSS/styles.css" rel="stylesheet" />
-
-</head>
-<body>
-    <!-- Page header with logo and tagline-->
-    <header class="py-5 bg-light border-bottom mb-4">
-        <div class="container">
-            <div class="text-center my-5">
-                <h1 class="fw-bolder">Bienvenido al Sistema </h1>
-                <p class="lead mb-0"> Aquí puedes consultar productos o registrar pagos parciales de forma sencilla y eficiente.</p>
-            </div>
-        </div>
-    </header>
-
+<header class="py-5 bg-light border-bottom mb-4">
     <div class="container">
-        <div class="row justify-content-center">
-            <!-- Tarjeta de Consulta -->
-            <div class="col-md-5 mb-4">
-                <div class="card h-100 shadow-lg border-0">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4990/4990411.png" class="card-img-top p-3" style="height: 250px; object-fit: contain;" />
-                    <div class="card-body d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title">Consulta de Productos</h5>
-                            <p class="card-text">Visualiza todos los productos registrados, priorizando los que están pendientes.</p>
-                        </div>
-                        <div class="text-center mt-3">
-                            <a class="btn btn-outline-info" href="@Url.Action("Consulta", "Home")">Ir a Consulta</a>
-                        </div>
+        <div class="text-center my-5">
+            <h1 class="fw-bolder">Bienvenido al Sistema</h1>
+            <p class="lead mb-0">Aquí puedes consultar productos o registrar pagos parciales de forma sencilla y eficiente.</p>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row justify-content-center">
+  
+        <div class="col-md-5 mb-4">
+            <div class="card h-100 shadow-lg border-0">
+                <img src="https://cdn-icons-png.flaticon.com/512/4990/4990411.png" class="card-img-top p-3" style="height: 250px; object-fit: contain;" />
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="card-title">Consulta de Productos</h5>
+                        <p class="card-text">Visualiza todos los productos registrados, priorizando los que están pendientes.</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a class="btn btn-outline-info" href="@Url.Action("Consulta", "Compras")">Ir a Consulta</a>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Tarjeta de Registro -->
-            <div class="col-md-5 mb-4">
-                <div class="card h-100 shadow-lg border-0">
-                    <img src="https://img.freepik.com/premium-vector/hand-with-gold-coin-cash-currency-fingers-donation-concept_506530-4458.jpg" class="card-img-top p-3" style="height: 250px; object-fit: contain;" />
-                    <div class="card-body d-flex flex-column justify-content-between">
-                        <div>
-                            <h5 class="card-title">Registro de Abonos</h5>
-                            <p class="card-text">Realiza un abono parcial a una compra pendiente y mantén tus registros actualizados.</p>
-                        </div>
-                        <div class="text-center mt-3">
-                            <a class="btn btn-outline-info" href="@Url.Action("Registro", "Home")">Ir a Registro</a>
-                        </div>
+        <div class="col-md-5 mb-4">
+            <div class="card h-100 shadow-lg border-0">
+                <img src="https://img.freepik.com/premium-vector/hand-with-gold-coin-cash-currency-fingers-donation-concept_506530-4458.jpg" class="card-img-top p-3" style="height: 250px; object-fit: contain;" />
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                        <h5 class="card-title">Registro de Abonos</h5>
+                        <p class="card-text">Realiza un abono parcial a una compra pendiente y mantén tus registros actualizados.</p>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a class="btn btn-outline-info" href="@Url.Action("Registro", "Abonos")">Ir a Registro</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</body>
-</html>
+</div>
