@@ -14,11 +14,11 @@ namespace Practica_3.Models
     
     public partial class Abonos
     {
-        public int AbonoId { get; set; }
-        public int CompraId { get; set; }
+        public long Id_Compra { get; set; }
+        public long Id_Abono { get; set; }
         public decimal Monto { get; set; }
-        public Nullable<System.DateTime> Fecha { get; set; }
+        public System.DateTime Fecha { get; set; }
     
-        public virtual Compras Compras { get; set; }
+        public virtual Principal Principal { get; set; }
     }
 }

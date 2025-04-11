@@ -1,4 +1,4 @@
-﻿@model List<Practica_3.Models.Compras>
+﻿@model List<Practica_3.Models.Principal>
 
 @{
     ViewBag.Title = "Consulta de Compras";
@@ -26,19 +26,17 @@
                         <th>Precio</th>
                         <th>Saldo</th>
                         <th>Estado</th>
-                        <th>Fecha</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
                         <tr>
-                            <td>@item.CompraId</td>
+                            <td>@item.Id_Compra</td>
                             <td>@item.Descripcion</td>
                             <td>₡@item.Precio.ToString("N2")</td>
                             <td>₡@item.Saldo.ToString("N2")</td>
                             <td>@item.Estado</td>
-                            <td>@(item.Fecha.HasValue ? item.Fecha.Value.ToString("dd/MM/yyyy") : "")</td>
                         </tr>
                     }
                 </tbody>

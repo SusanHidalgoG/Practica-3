@@ -4,8 +4,7 @@ using System;
 
 public class AbonosController : Controller
 {
-    private SistemaRegistroEntities db = new SistemaRegistroEntities();
-
+    private PracticaS12Entities1 db = new PracticaS12Entities1();
 
     [HttpGet]
     public ActionResult Registro()
@@ -14,9 +13,9 @@ public class AbonosController : Controller
     }
 
     [HttpPost]
-    public ActionResult RegistrarAbono(int CompraId, decimal MontoAbono)
+    public ActionResult RegistrarAbono(long CompraId, decimal MontoAbono)
     {
-        var compra = db.Compras.Find(CompraId);
+        var compra = db.Principal.Find(CompraId);
 
         if (compra == null || MontoAbono <= 0 || MontoAbono > compra.Saldo)
         {
@@ -26,7 +25,7 @@ public class AbonosController : Controller
 
         Abonos nuevoAbono = new Abonos
         {
-            CompraId = CompraId,
+            Id_Compra = CompraId,
             Monto = MontoAbono,
             Fecha = DateTime.Now
         };

@@ -8,22 +8,21 @@ namespace Practica_3.Controllers
 {
     public class ComprasController : Controller
     {
-        private SistemaRegistroEntities db = new SistemaRegistroEntities();
+        private PracticaS12Entities1 db = new PracticaS12Entities1();
 
-   
         public ActionResult Consulta()
         {
-            var compras = db.Compras.OrderBy(c => c.Estado).ToList();
+            var compras = db.Principal.OrderBy(c => c.Estado).ToList();
             return View(compras);
         }
 
         public JsonResult ObtenerComprasPendientes()
         {
-            var compras = db.Compras
+            var compras = db.Principal
                             .Where(c => c.Estado == "Pendiente")
                             .Select(c => new
                             {
-                                c.CompraId,
+                                CompraId = c.Id_Compra, 
                                 c.Descripcion,
                                 c.Saldo
                             })
@@ -32,11 +31,10 @@ namespace Practica_3.Controllers
             return Json(compras, JsonRequestBehavior.AllowGet);
         }
 
-
-        public JsonResult ObtenerSaldo(int compraId)
+        public JsonResult ObtenerSaldo(long compraId)
         {
-            var saldo = db.Compras
-                          .Where(c => c.CompraId == compraId)
+            var saldo = db.Principal
+                          .Where(c => c.Id_Compra == compraId)
                           .Select(c => c.Saldo)
                           .FirstOrDefault();
 

@@ -52,6 +52,9 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -107,9 +110,6 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -135,25 +135,25 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Abonos.cs">
-      <DependentUpon>SistemaRegistro.tt</DependentUpon>
+      <DependentUpon>PracticaS12.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Compras.cs">
-      <DependentUpon>SistemaRegistro.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\SistemaRegistro.Context.cs">
+    <Compile Include="Models\PracticaS12.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaRegistro.Context.tt</DependentUpon>
+      <DependentUpon>PracticaS12.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\SistemaRegistro.cs">
+    <Compile Include="Models\PracticaS12.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaRegistro.tt</DependentUpon>
+      <DependentUpon>PracticaS12.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\SistemaRegistro.Designer.cs">
+    <Compile Include="Models\PracticaS12.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SistemaRegistro.edmx</DependentUpon>
+      <DependentUpon>PracticaS12.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Principal.cs">
+      <DependentUpon>PracticaS12.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -166,24 +166,24 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\SistemaRegistro.Context.tt">
+    <Content Include="Models\PracticaS12.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SistemaRegistro.Context.cs</LastGenOutput>
-      <DependentUpon>SistemaRegistro.edmx</DependentUpon>
+      <DependentUpon>PracticaS12.edmx</DependentUpon>
+      <LastGenOutput>PracticaS12.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\SistemaRegistro.tt">
+    <Content Include="Models\PracticaS12.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SistemaRegistro.edmx</DependentUpon>
-      <LastGenOutput>SistemaRegistro.cs</LastGenOutput>
+      <DependentUpon>PracticaS12.edmx</DependentUpon>
+      <LastGenOutput>PracticaS12.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\SistemaRegistro.edmx">
+    <EntityDeploy Include="Models\PracticaS12.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SistemaRegistro.Designer.cs</LastGenOutput>
+      <LastGenOutput>PracticaS12.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\SistemaRegistro.edmx.diagram">
-      <DependentUpon>SistemaRegistro.edmx</DependentUpon>
+    <Content Include="Models\PracticaS12.edmx.diagram">
+      <DependentUpon>PracticaS12.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
